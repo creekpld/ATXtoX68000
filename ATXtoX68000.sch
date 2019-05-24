@@ -1,0 +1,415 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 1-1775099-3:1-1775099-3 J5
+U 1 1 5CE836E3
+P 6100 2500
+F 0 "J5" H 6100 3150 50  0000 C CNN
+F 1 "1-1775099-3" H 6100 1750 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_1-1775099-3" H 6100 1650 50  0000 C CNN
+F 3 "" H 6100 2500 50  0001 L BNN
+	1    6100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CE84956
+P 3600 1850
+F 0 "R1" V 3600 1850 50  0000 C CNN
+F 1 "R 4.7k" V 3700 1850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3530 1850 50  0001 C CNN
+F 3 "~" H 3600 1850 50  0001 C CNN
+	1    3600 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5CE868FA
+P 5050 4500
+F 0 "J3" V 5050 4250 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5150 4450 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 5050 4500 50  0001 C CNN
+F 3 "~" H 5050 4500 50  0001 C CNN
+	1    5050 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5CE88E71
+P 4600 4500
+F 0 "J2" V 4600 4250 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 4700 4450 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 4600 4500 50  0001 C CNN
+F 3 "~" H 4600 4500 50  0001 C CNN
+	1    4600 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 5CE89BDD
+P 5500 4500
+F 0 "J4" V 5500 4250 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5600 4450 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 5500 4500 50  0001 C CNN
+F 3 "~" H 5500 4500 50  0001 C CNN
+	1    5500 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5CE8A62C
+P 4150 4500
+F 0 "J1" V 4150 4250 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 4250 4450 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 4150 4500 50  0001 C CNN
+F 3 "~" H 4150 4500 50  0001 C CNN
+	1    4150 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 2100 5600 2100
+Wire Wire Line
+	5600 2100 5600 2200
+Connection ~ 5600 2200
+Wire Wire Line
+	5600 2200 5700 2200
+Wire Wire Line
+	5600 2200 5600 2300
+Wire Wire Line
+	5600 2300 5700 2300
+Wire Wire Line
+	5700 2800 5600 2800
+Wire Wire Line
+	5700 2700 5600 2700
+Wire Wire Line
+	5600 2700 5600 2800
+Connection ~ 5600 2800
+Wire Wire Line
+	5600 2800 5600 2900
+Wire Wire Line
+	5600 2900 5700 2900
+Wire Wire Line
+	6650 2800 6500 2800
+$Comp
+L power:GND #PWR0101
+U 1 1 5CE8CB09
+P 5500 2800
+F 0 "#PWR0101" H 5500 2550 50  0001 C CNN
+F 1 "GND" V 5505 2672 50  0000 R CNN
+F 2 "" H 5500 2800 50  0001 C CNN
+F 3 "" H 5500 2800 50  0001 C CNN
+	1    5500 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CE96EFF
+P 5500 2200
+F 0 "#PWR0102" H 5500 1950 50  0001 C CNN
+F 1 "GND" V 5505 2072 50  0000 R CNN
+F 2 "" H 5500 2200 50  0001 C CNN
+F 3 "" H 5500 2200 50  0001 C CNN
+	1    5500 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CE973A1
+P 6650 2800
+F 0 "#PWR0103" H 6650 2550 50  0001 C CNN
+F 1 "GND" V 6655 2672 50  0000 R CNN
+F 2 "" H 6650 2800 50  0001 C CNN
+F 3 "" H 6650 2800 50  0001 C CNN
+	1    6650 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 2200 5500 2200
+Wire Wire Line
+	5500 2800 5600 2800
+Wire Wire Line
+	5700 2000 5700 1750
+Wire Wire Line
+	5700 1750 6500 1750
+Wire Wire Line
+	6500 1750 6500 2000
+Connection ~ 6500 2000
+Wire Wire Line
+	6500 2100 6600 2100
+Wire Wire Line
+	6600 2100 6600 2200
+Wire Wire Line
+	6500 2200 6600 2200
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5CE9D0CC
+P 5450 2600
+F 0 "#PWR0104" H 5450 2450 50  0001 C CNN
+F 1 "+3.3V" V 5465 2728 50  0000 L CNN
+F 2 "" H 5450 2600 50  0001 C CNN
+F 3 "" H 5450 2600 50  0001 C CNN
+	1    5450 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 2600 5450 2600
+$Comp
+L power:+5V #PWR0105
+U 1 1 5CEA06BD
+P 5450 3100
+F 0 "#PWR0105" H 5450 2950 50  0001 C CNN
+F 1 "+5V" V 5465 3228 50  0000 L CNN
+F 2 "" H 5450 3100 50  0001 C CNN
+F 3 "" H 5450 3100 50  0001 C CNN
+	1    5450 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 3000 5600 3000
+Wire Wire Line
+	5600 3000 5600 3100
+Wire Wire Line
+	5600 3100 5450 3100
+Wire Wire Line
+	5600 3100 5700 3100
+Connection ~ 5600 3100
+Wire Wire Line
+	6500 3100 6650 3100
+$Comp
+L power:GND #PWR0106
+U 1 1 5CE907FF
+P 6650 3100
+F 0 "#PWR0106" H 6650 2850 50  0001 C CNN
+F 1 "GND" V 6655 2972 50  0000 R CNN
+F 2 "" H 6650 3100 50  0001 C CNN
+F 3 "" H 6650 3100 50  0001 C CNN
+	1    6650 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 5CEA48BB
+P 6650 3000
+F 0 "#PWR0107" H 6650 2850 50  0001 C CNN
+F 1 "+5V" V 6665 3128 50  0000 L CNN
+F 2 "" H 6650 3000 50  0001 C CNN
+F 3 "" H 6650 3000 50  0001 C CNN
+	1    6650 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 3000 6500 3000
+$Comp
+L power:+12V #PWR0108
+U 1 1 5CEA6CAB
+P 5450 2500
+F 0 "#PWR0108" H 5450 2350 50  0001 C CNN
+F 1 "+12V" V 5465 2628 50  0000 L CNN
+F 2 "" H 5450 2500 50  0001 C CNN
+F 3 "" H 5450 2500 50  0001 C CNN
+	1    5450 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 2500 5450 2500
+Connection ~ 6600 2200
+Wire Wire Line
+	6700 2600 6500 2600
+Wire Wire Line
+	6700 2500 6500 2500
+Wire Wire Line
+	6700 2400 6500 2400
+Wire Wire Line
+	6600 2200 6700 2200
+Wire Wire Line
+	6700 2000 6500 2000
+$Comp
+L power:-12V #PWR0109
+U 1 1 5CEA938B
+P 6700 2600
+F 0 "#PWR0109" H 6700 2700 50  0001 C CNN
+F 1 "-12V" V 6715 2728 50  0000 L CNN
+F 2 "" H 6700 2600 50  0001 C CNN
+F 3 "" H 6700 2600 50  0001 C CNN
+	1    6700 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0110
+U 1 1 5CEA54F8
+P 6700 2400
+F 0 "#PWR0110" H 6700 2250 50  0001 C CNN
+F 1 "+12V" V 6715 2528 50  0000 L CNN
+F 2 "" H 6700 2400 50  0001 C CNN
+F 3 "" H 6700 2400 50  0001 C CNN
+	1    6700 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 5CE9BE18
+P 6700 2500
+F 0 "#PWR0111" H 6700 2350 50  0001 C CNN
+F 1 "+3.3V" V 6715 2628 50  0000 L CNN
+F 2 "" H 6700 2500 50  0001 C CNN
+F 3 "" H 6700 2500 50  0001 C CNN
+	1    6700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0112
+U 1 1 5CE92845
+P 6700 2000
+F 0 "#PWR0112" H 6700 1850 50  0001 C CNN
+F 1 "+3.3V" V 6715 2128 50  0000 L CNN
+F 2 "" H 6700 2000 50  0001 C CNN
+F 3 "" H 6700 2000 50  0001 C CNN
+	1    6700 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 5CE9A42C
+P 6700 2200
+F 0 "#PWR0113" H 6700 2050 50  0001 C CNN
+F 1 "+5V" V 6715 2328 50  0000 L CNN
+F 2 "" H 6700 2200 50  0001 C CNN
+F 3 "" H 6700 2200 50  0001 C CNN
+	1    6700 2200
+	0    1    1    0   
+$EndComp
+Text GLabel 6500 2700 2    50   Input ~ 0
+ATX_PWR_On
+Text GLabel 4050 2350 2    50   Input ~ 0
+ATX_PWR_On
+$Comp
+L power:GND #PWR0114
+U 1 1 5CEB6ADC
+P 3750 3150
+F 0 "#PWR0114" H 3750 2900 50  0001 C CNN
+F 1 "GND" H 3755 2977 50  0000 C CNN
+F 2 "" H 3750 3150 50  0001 C CNN
+F 3 "" H 3750 3150 50  0001 C CNN
+	1    3750 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 2400 0    50   Input ~ 0
++5vSB
+Text GLabel 3750 1550 1    50   Input ~ 0
++5vSB
+$Comp
+L dk_Logic-Gates-and-Inverters:SN74HC04N U1
+U 1 1 5CE7D3C1
+P 3750 2650
+F 0 "U1" H 3900 3200 60  0000 C CNN
+F 1 "SN74HC04N" H 3250 2300 60  0000 C CNN
+F 2 "digikey-footprints:DIP-14_W3mm" H 3950 2850 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc04" H 3950 2950 60  0001 L CNN
+F 4 "296-1566-5-ND" H 3950 3050 60  0001 L CNN "Digi-Key_PN"
+F 5 "SN74HC04N" H 3950 3150 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3950 3250 60  0001 L CNN "Category"
+F 7 "Logic - Gates and Inverters" H 3950 3350 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc04" H 3950 3450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/SN74HC04N/296-1566-5-ND/277212" H 3950 3550 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC INVERTER 6CH 6-INP 14DIP" H 3950 3650 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 3950 3750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3950 3850 60  0001 L CNN "Status"
+	1    3750 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3350 2350 0    50   Input ~ 0
+X68_PWR_On
+Wire Wire Line
+	3750 1550 3750 1850
+Connection ~ 3750 1850
+Wire Wire Line
+	3750 1850 3750 2050
+Wire Wire Line
+	3450 2350 3350 2350
+Wire Wire Line
+	3450 1850 3450 2350
+Connection ~ 3450 2350
+Text GLabel 4150 4300 1    50   Input ~ 0
+X68_PWR_On
+$Comp
+L power:GND #PWR0115
+U 1 1 5CED6F5F
+P 4050 4300
+F 0 "#PWR0115" H 4050 4050 50  0001 C CNN
+F 1 "GND" V 4050 4100 50  0000 C CNN
+F 2 "" H 4050 4300 50  0001 C CNN
+F 3 "" H 4050 4300 50  0001 C CNN
+	1    4050 4300
+	-1   0    0    1   
+$EndComp
+Text GLabel 4500 4300 1    50   Input ~ 0
++5vSB
+$Comp
+L power:+5V #PWR0116
+U 1 1 5CED9C71
+P 4600 4300
+F 0 "#PWR0116" H 4600 4150 50  0001 C CNN
+F 1 "+5V" V 4600 4500 50  0000 C CNN
+F 2 "" H 4600 4300 50  0001 C CNN
+F 3 "" H 4600 4300 50  0001 C CNN
+	1    4600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0117
+U 1 1 5CEDC397
+P 5050 4300
+F 0 "#PWR0117" H 5050 4150 50  0001 C CNN
+F 1 "+12V" V 5050 4550 50  0000 C CNN
+F 2 "" H 5050 4300 50  0001 C CNN
+F 3 "" H 5050 4300 50  0001 C CNN
+	1    5050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR0118
+U 1 1 5CEDCCCC
+P 4950 4300
+F 0 "#PWR0118" H 4950 4400 50  0001 C CNN
+F 1 "-12V" V 4950 4550 50  0000 C CNN
+F 2 "" H 4950 4300 50  0001 C CNN
+F 3 "" H 4950 4300 50  0001 C CNN
+	1    4950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5CEDE2AB
+P 5400 4300
+F 0 "#PWR0119" H 5400 4050 50  0001 C CNN
+F 1 "GND" V 5400 4050 50  0000 C CNN
+F 2 "" H 5400 4300 50  0001 C CNN
+F 3 "" H 5400 4300 50  0001 C CNN
+	1    5400 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0120
+U 1 1 5CEDE9C5
+P 5500 4300
+F 0 "#PWR0120" H 5500 4150 50  0001 C CNN
+F 1 "+3.3V" V 5500 4550 50  0000 C CNN
+F 2 "" H 5500 4300 50  0001 C CNN
+F 3 "" H 5500 4300 50  0001 C CNN
+	1    5500 4300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,248 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+TE_1-1775099-3
+$EndINDEX
+$MODULE TE_1-1775099-3
+Po 0 0 0 15 00000000 00000000 ~~
+Li TE_1-1775099-3
+Cd 
+Sc 00000000
+At STD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -18.1837 -5.99281 1.00131 1.00131 0 0.05 N V 21 "TE_1-1775099-3"
+T1 -17.2304 6.42449 1.00148 1.00148 0 0.05 N V 21 "VAL**"
+DS -25.75 -4.8 25.75 -4.8 0.127 21
+DS 25.75 -4.8 25.75 4.8 0.127 21
+DS 25.75 4.8 1.7 4.8 0.127 21
+DS 1.7 4.8 -1.7 4.8 0.127 21
+DS -1.7 4.8 -25.75 4.8 0.127 21
+DS -25.75 4.8 -25.75 -4.8 0.127 21
+DS -1.7 4.8 -1.7 6.1 0.127 21
+DS -1.7 6.1 1.7 6.1 0.127 21
+DS 1.7 6.1 1.7 4.8 0.127 21
+DC -23.3 -5.35 -23.1 -5.35 0.2032 21
+DS -26 -5.05 26 -5.05 0.05 26
+DS 26 -5.05 26 5.05 0.05 26
+DS 26 5.05 1.95 5.05 0.05 26
+DS 1.95 5.05 1.95 6.35 0.05 26
+DS 1.95 6.35 -1.95 6.35 0.05 26
+DS -1.95 6.35 -1.95 5.05 0.05 26
+DS -1.95 5.05 -26 5.05 0.05 26
+DS -29.55 4.04 -29.55 0.54 0.05 26
+DS -29.55 0.54 -26 0.54 0.05 26
+DS -26 0.54 -26 -5.05 0.05 26
+DS -25.75 -4.8 25.75 -4.8 0.127 27
+DS 25.75 -4.8 25.75 4.8 0.127 27
+DS -25.75 4.8 -25.75 -4.8 0.127 27
+DS -25.75 4.8 -1.7 4.8 0.127 27
+DS -1.7 4.8 1.7 4.8 0.127 27
+DS 1.7 4.8 25.75 4.8 0.127 27
+DS -1.7 4.8 -1.7 6.1 0.127 27
+DS 1.7 6.1 1.7 4.8 0.127 27
+DS -1.7 6.1 1.7 6.1 0.127 27
+DC -23.3 -5.35 -23.1 -5.35 0.2032 27
+DS -26 5.05 -26 4.04 0.05 26
+DS -26 4.04 -29.55 4.04 0.05 26
+$PAD
+Sh "Hole" C 3 3 0 0 0
+Dr 3 0 0
+At HOLE N 00E0FFFF
+Po -27.8 2.29
+$EndPAD
+$PAD
+Sh "1" R 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -23.1 -2.75
+$EndPAD
+$PAD
+Sh "2" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -23.1 2.75
+$EndPAD
+$PAD
+Sh "3" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -18.9 -2.75
+$EndPAD
+$PAD
+Sh "4" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -18.9 2.75
+$EndPAD
+$PAD
+Sh "5" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -14.7 -2.75
+$EndPAD
+$PAD
+Sh "6" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -14.7 2.75
+$EndPAD
+$PAD
+Sh "7" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -10.5 -2.75
+$EndPAD
+$PAD
+Sh "8" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -10.5 2.75
+$EndPAD
+$PAD
+Sh "9" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -6.3 -2.75
+$EndPAD
+$PAD
+Sh "10" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -6.3 2.75
+$EndPAD
+$PAD
+Sh "11" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -2.1 -2.75
+$EndPAD
+$PAD
+Sh "12" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -2.1 2.75
+$EndPAD
+$PAD
+Sh "13" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 2.1 -2.75
+$EndPAD
+$PAD
+Sh "14" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 2.1 2.75
+$EndPAD
+$PAD
+Sh "15" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 6.3 -2.75
+$EndPAD
+$PAD
+Sh "16" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 6.3 2.75
+$EndPAD
+$PAD
+Sh "17" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 10.5 -2.75
+$EndPAD
+$PAD
+Sh "18" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 10.5 2.75
+$EndPAD
+$PAD
+Sh "19" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 14.7 -2.75
+$EndPAD
+$PAD
+Sh "20" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 14.7 2.75
+$EndPAD
+$PAD
+Sh "21" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 18.9 -2.75
+$EndPAD
+$PAD
+Sh "22" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 18.9 2.75
+$EndPAD
+$PAD
+Sh "23" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 23.1 -2.75
+$EndPAD
+$PAD
+Sh "24" C 2.1 2.1 0 0 0
+Dr 1.4 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 23.1 2.75
+$EndPAD
+$EndMODULE TE_1-1775099-3
