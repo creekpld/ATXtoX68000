@@ -209,8 +209,6 @@ F 3 "" H 2850 4100 50  0001 C CNN
 	1    2850 4100
 	-1   0    0    1   
 $EndComp
-Text GLabel 3050 4100 1    50   Input ~ 0
-ATX_PWR_On
 Wire Wire Line
 	3000 4250 3050 4250
 Wire Wire Line
@@ -404,4 +402,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 3100 5850 3100
 Connection ~ 5950 3050
+Text GLabel 3050 4100 1    50   Input ~ 0
+X68_PWR_On
 $EndSCHEMATC
